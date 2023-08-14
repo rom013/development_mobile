@@ -37,3 +37,5 @@ printResultCalcIMC(result){
     print("Obesidade III");
   }
 }
+
+// by @rom013
