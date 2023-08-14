@@ -18,7 +18,7 @@ void main() {
         executeCalcAvarage(grade);
         
     } catch (e) {
-      
+        print("O valor inserido não é valido");
     }
 }
 
