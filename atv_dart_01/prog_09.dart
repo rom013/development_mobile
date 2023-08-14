@@ -2,7 +2,7 @@
 
 import 'dart:io';
 void main() {
-	List<int> numbersList = [];
+	List<int> numbersList = <int>[];
 	
 	try {
 		for (int i = 0; i < 3; i++) {
@@ -12,19 +12,12 @@ void main() {
 			numbersList.add(number);
 		}
 
-		orderNumberList(numbersList);
+		numbersList.sort((a, b) => b.compareTo(a));
+
+		print(numbersList);
 	} catch (e) {
 	  print("O valor inserido não é valido");
 	}
-}
-
-orderNumberList(numbersList) {
-	List<int> newList = [];
-
-	for (int i = 0; i < numbersList.length; i++) {
-		
-	}
-
 }
 
 // by @rom013
