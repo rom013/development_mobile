@@ -2,6 +2,6 @@
 
 <div align="center">
 
-![App Screenshot](./banner.png)
+![App Screenshot](./bannerDart.png)
 
 </div>
