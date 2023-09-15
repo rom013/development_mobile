@@ -39,6 +39,7 @@ main(){
 
     Calculator calculate = Calculator(firstNumber, secondNumber);
     print(calculate.calculate(operatorValue));
+    
   } catch (e) {
     print("o valor inserido é invalido");
   }
